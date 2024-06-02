@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.total_cont {
+    text-align: center;
+    background-color: #8dc4eb;
+    padding: 5px;
+    height: 100vh;
+}
+
+.total_conted {
+    text-align: center;
+    background-color: #48CAE4;
+    height: 300px;
+    border-color: black;
+
+}
+
+.slogan {
+    text-align: right;
+    font-size: 14px;
+    color: white;
+}
+
+.comname {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.imageIcon {
+    height: 100px;
+    width: 200px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.imageIconed {
+    height: 200px;
+    width: 200px;
+
+}
+
+.gobutton {
+    display: none;
+}
+
+.gobuttonnn {
+    display: inline-block;
+}
+
+
+.docuCont {
+    text-align: center;
+    background-color: #48CAE4;
+    height: 100%;
+    padding: 5px;
+}
+
+.card {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.cardhaed {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.cardImg {
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    margin-top: 3px;
+}
+
+.spppp {
+    font-weight: bold;
+}
+
+.heading_name {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.para2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#selectedAva {
+    font-size: 16px;
+    padding: 5px;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mpment {
+    display: none;
+}
+
+.gobuttonnn {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#finalcerbook {
+    color: blue;
+}
+
+.uploaddeee {
+    background-color: #8dc4eb;
+    text-align: center;
+    padding: 10px;
+}
+
+.imgupload {
+    max-width: 100%;
+    height: auto;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.appeertext {
+    color: blue;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bottompaymnet {
+    display: none;
+}
+
+.bottompaymneted {
+    display: block;
+}
+
+
+.slepaymet {
+    text-align: center;
+    padding: 10px;
+    background-color: #8dc4eb;
+    height: 100vh;
+}
+
+
+.rtamakepaymentya {
+    display: none;
+}
+
+.rtamakepaymentyaed {
+    display: block;
+}
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+#inputContainer {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.generatedInput {
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ageInput {
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gender-group {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.gender-group input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btoom_ration {
+    text-align: center;
+    background-color: #8dc4eb;
+}
+
+.chinni {
+    text-align: center;
+}
+
+#selectedAva {
+    font-size: 16px;
+    padding: 5px;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#selectedAvaing {
+    font-size: 16px;
+    padding: 5px;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appeertext {
+    color: blue;
+    font-weight: bold;
+    font-family: "Roboto";
+}

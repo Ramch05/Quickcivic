@@ -1,0 +1,189 @@
+function requestOTP() {
+    var mobileNumber = document.getElementById('mobileNumber').value;
+    if (mobileNumber) {
+        alert('OTP sent to ' + mobileNumber);
+
+        document.getElementById('mobileNumberDiv').style.display = 'none';
+        document.getElementById('otpDiv').style.display = 'block';
+    } else {
+        alert('Please enter a valid mobile number.');
+    }
+}
+
+document.getElementById('otpForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var otp = document.getElementById('otp').value;
+    if (otp) {
+
+        alert('OTP verified successfully!');
+    } else {
+        alert('Please enter the OTP.');
+    }
+});
+
+
+let paaraa = document.getElementById("textava");
+
+function availa() {
+    let avac = document.getElementById("selectedAva").value;
+    paaraa.textContent = "Choose your " + avac;
+}
+
+
+
+
+document.getElementById('upload-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const DRfileInput = document.getElementById('file-upload');
+    const previewContainer = document.getElementById('image-preview');
+
+    if (DRfileInput.files && DRfileInput.files[0]) {
+        const file = DRfileInput.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.classList.add("imgupload");
+            previewContainer.innerHTML = '';
+            previewContainer.appendChild(img);
+        };
+
+        reader.readAsDataURL(file);
+    }
+});
+
+document.getElementById('uploaded-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const DRfileInput = document.getElementById('file-uploaded');
+    const previewContainer = document.getElementById('image-previewed');
+
+    if (DRfileInput.files && DRfileInput.files[0]) {
+        const file = DRfileInput.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.classList.add("imgupload");
+            previewContainer.innerHTML = '';
+            previewContainer.appendChild(img);
+        };
+
+        reader.readAsDataURL(file);
+    }
+});
+
+function smithi() {
+    let paymentButton = document.getElementById("butonpayment");
+    let avac = document.getElementById("selectedAva").value;
+    if (avac !== "--select your availability") {
+        let smithitext = document.getElementById("finalcerbook");
+        smithitext.textContent = "Your VoterId booking is confirmed with " + avac + " Proof Identity";
+        paymentButton.classList.add('gobuttonnn');
+    } else {
+        alert("please Provide all Require Details")
+    }
+}
+let hidensec = document.getElementById("hidensec");
+
+function next() {
+    hidensec.classList.add('bottompaymneted');
+}
+
+function donepayof() {
+    let donepay = document.getElementById("amountcon");
+    setTimeout(function() {
+        donepay.textContent = "Payment is received you will get confirmation of your document soon Thank you for choosing QuickCivic";
+    }, 3000);
+}
+let paaraaing = document.getElementById("textavaing");
+
+function availalityy() {
+    let avacing = document.getElementById("selectedAvaing").value;
+    paaraaing.textContent = "Choose your " + avacing;
+}
+
+document.getElementById('upload-forming').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const DRifileInput = document.getElementById('file-uploading');
+    const previewiContainer = document.getElementById('image-previewing');
+
+    if (DRifileInput.files && DRifileInput.files[0]) {
+        const file = DRifileInput.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.classList.add("imgupload");
+            previewiContainer.innerHTML = '';
+            previewiContainer.appendChild(img);
+        };
+
+        reader.readAsDataURL(file);
+    }
+});
+
+function generateInputBoxes() {
+    const numberInput = document.getElementById('numberInput').value;
+    const inputContainer = document.getElementById('inputContainer');
+    inputContainer.innerHTML = '';
+
+    if (numberInput > 0) {
+        for (let i = 0; i < numberInput; i++) {
+            const inputGroup = document.createElement('div');
+            inputGroup.className = 'input-group';
+
+            const nameInput = document.createElement('input');
+            nameInput.type = 'text';
+            nameInput.className = 'generatedInput';
+            nameInput.placeholder = `Name ${i + 1}`;
+
+            const ageInput = document.createElement('input');
+            ageInput.type = 'number';
+            ageInput.className = 'ageInput';
+            ageInput.placeholder = 'Age';
+
+            const genderGroup = document.createElement('div');
+            genderGroup.className = 'gender-group';
+
+            const maleLabel = document.createElement('label');
+            maleLabel.textContent = 'Male';
+            const maleInput = document.createElement('input');
+            maleInput.type = 'radio';
+            maleInput.name = `gender${i}`;
+            maleInput.value = 'male';
+
+            const femaleLabel = document.createElement('label');
+            femaleLabel.textContent = 'Female';
+            const femaleInput = document.createElement('input');
+            femaleInput.type = 'radio';
+            femaleInput.name = `gender${i}`;
+            femaleInput.value = 'female';
+
+            genderGroup.appendChild(maleLabel);
+            genderGroup.appendChild(maleInput);
+            genderGroup.appendChild(femaleLabel);
+            genderGroup.appendChild(femaleInput);
+
+            inputGroup.appendChild(nameInput);
+            inputGroup.appendChild(ageInput);
+            inputGroup.appendChild(genderGroup);
+
+            inputContainer.appendChild(inputGroup);
+        }
+    } else {
+        alert('Please enter a positive integer.');
+    }
+}
+
+function rationclick() {
+    let ratitex = document.getElementById("ratiotextcon");
+    let mounhgu = document.getElementById("makeratibutkin");
+    ratitex.textContent = "Your Details are taken please make the payment for confirmation"
+    mounhgu.classList.add("rtamakepaymentyaed");
+}
